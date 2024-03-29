@@ -24,3 +24,9 @@ a:hover { /* 마우스 포인터를 위에 올린 상태 */
     font-size: 20px;
     text-decoration:underline;
 }
+section {
+    overflow: hidden;
+}
+article {
+    float: left;
+}
