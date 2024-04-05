@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ul {
+            list-style: none;
+        }
+        #leftMenu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 250px;
+            background-color: darkgray;
+        }
+        #leftMenu + div {
+            padding-left: 52px;
+            padding-top: 25px;
+            margin-left: 250px;     
+            line-height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="leftMenu">
+            <ul>
+                <li><a href="/">home</a></li>
+                <li>news</li>
+                <li>contact</li>
+                <li>about</li>
+            </ul>
+        </div>
+        <div>
+            some text...<br>
+            some text...<br>
+            some text...<br>
+            some text...<br>
+            some text...<br>
+            some text...<br>
+            some text...<br>
+            some text...<br>
+            some text...<br>
+        </div>
+    </div>
+</body>
+</html>
